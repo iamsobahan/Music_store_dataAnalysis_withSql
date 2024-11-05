@@ -37,53 +37,47 @@ Ensure these tables are populated with appropriate data before running the queri
 ## Query Sections
 
 ### Easy Queries
-1. **Find the Senior Most Employee** - Finds the employee with the highest job level.
-# Q1: Who is the senior most employee based on job title? 
-
-#SELECT title, last_name, first_name 
-#FROM employee
-#ORDER BY levels DESC
-#LIMIT 1
+## 1. **Find the Senior Most Employee** - Finds the employee with the highest job level. 
 ![first problem Question](./solution_image/question_1.png)
 
 ![first problem Solution](./solution_image/solution_1.png)
 
-2. **Top Countries by Invoice Count** - Lists countries with the most invoices.
+## 2. **Top Countries by Invoice Count** - Lists countries with the most invoices.
 ![first problem Question](./solution_image/question_2.png)
 
 ![first problem Solution](./solution_image/solution_2.png)
-3. **Top Invoice Values** - Retrieves the top three invoice totals.
+## 3. **Top Invoice Values** - Retrieves the top three invoice totals.
 
 ![first problem Question](./solution_image/question_3.png)
 
 ![first problem Solution](./solution_image/solution_3.png)
-4. **City with Best Customers** - Determines the city with the highest total sales.
+## 4. **City with Best Customers** - Determines the city with the highest total sales.
 
 ![first problem Question](./solution_image/question_4.png)
 
 ![first problem Solution](./solution_image/solution_4.png)
-5. **Best Customer** - Finds the customer who has spent the most.
+## 5. **Best Customer** - Finds the customer who has spent the most.
 
 ![first problem Question](./solution_image/question_5.png)
 
 ![first problem Solution](./solution_image/solution_5.png)
 
 ### Moderate Queries
-1. **Identify Rock Music Listeners** - Retrieves details of customers who listen to Rock music, ordered alphabetically by email.
+## 1. **Identify Rock Music Listeners** - Retrieves details of customers who listen to Rock music, ordered alphabetically by email.
 ![first problem Question](./solution_image/question_6.png)
 
 ![first problem Solution](./solution_image/solution_6.png)
-2. **Top Rock Music Artists** - Finds the top 10 artists by the number of Rock tracks.
-3. **Tracks Longer Than Average** - Lists tracks longer than the average song length, ordered by duration.
+## 2. **Top Rock Music Artists** - Finds the top 10 artists by the number of Rock tracks.
+## 3. **Tracks Longer Than Average** - Lists tracks longer than the average song length, ordered by duration.
 
 ### Advanced Queries
-1. **Customer Spending on Artists** - Determines how much each customer spent on the most popular artist.
-2. **Most Popular Genre by Country** - Finds the most popular music genre by country based on sales.
-3. **Top Customer by Country** - Identifies the customer with the highest spending in each country.
+## 1. **Customer Spending on Artists** - Determines how much each customer spent on the most popular artist.
+## 2. **Most Popular Genre by Country** - Finds the most popular music genre by country based on sales.
+## 3. **Top Customer by Country** - Identifies the customer with the highest spending in each country.
 
 ## Usage
-1. Clone the repository and load the SQL file into your database to set up the necessary schema and data.
-2. Run the queries using your preferred SQL client.
+## 1. Clone the repository and load the SQL file into your database to set up the necessary schema and data.
+## 2. Run the queries using your preferred SQL client.
 
 Each query is divided by comment headers to help you locate specific questions easily. To test each query, load your music store dataset into the database and execute the queries one by one to review results.
 
