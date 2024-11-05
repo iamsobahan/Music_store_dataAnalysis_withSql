@@ -44,17 +44,35 @@ Ensure these tables are populated with appropriate data before running the queri
 #FROM employee
 #ORDER BY levels DESC
 #LIMIT 1
-![first problem Question]('./solution_image/question_1.png')
+![first problem Question](./solution_image/question_1.png)
 
-![first problem Solution]('./solution_image/solution_1.png')
+![first problem Solution](./solution_image/solution_1.png)
 
 2. **Top Countries by Invoice Count** - Lists countries with the most invoices.
+![first problem Question](./solution_image/question_2.png)
+
+![first problem Solution](./solution_image/solution_2.png)
 3. **Top Invoice Values** - Retrieves the top three invoice totals.
+
+![first problem Question](./solution_image/question_3.png)
+
+![first problem Solution](./solution_image/solution_3.png)
 4. **City with Best Customers** - Determines the city with the highest total sales.
+
+![first problem Question](./solution_image/question_4.png)
+
+![first problem Solution](./solution_image/solution_4.png)
 5. **Best Customer** - Finds the customer who has spent the most.
+
+![first problem Question](./solution_image/question_5.png)
+
+![first problem Solution](./solution_image/solution_5.png)
 
 ### Moderate Queries
 1. **Identify Rock Music Listeners** - Retrieves details of customers who listen to Rock music, ordered alphabetically by email.
+![first problem Question](./solution_image/question_6.png)
+
+![first problem Solution](./solution_image/solution_6.png)
 2. **Top Rock Music Artists** - Finds the top 10 artists by the number of Rock tracks.
 3. **Tracks Longer Than Average** - Lists tracks longer than the average song length, ordered by duration.
 
