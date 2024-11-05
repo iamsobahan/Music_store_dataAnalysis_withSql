@@ -4,6 +4,13 @@ Author: Md Sobahan Mia
 ## Project Description
 This project includes SQL queries to perform various data analysis tasks on a music store database. The queries are grouped by difficulty levels (Easy, Moderate, and Advanced) and tackle different questions related to customer and sales data. The objective is to gain insights into customer spending patterns, popular genres by country, and other relevant business metrics.
 
+## Database and Tools
+* Postgre SQL
+* PgAdmin4
+
+Schema- Music Store Database  
+![MusicDatabaseSchema](./MusicDatabaseSchema.png)
+
 ## Table of Contents
 - [Data Requirements](#data-requirements)
 - [Query Sections](#query-sections)
@@ -31,6 +38,16 @@ Ensure these tables are populated with appropriate data before running the queri
 
 ### Easy Queries
 1. **Find the Senior Most Employee** - Finds the employee with the highest job level.
+# Q1: Who is the senior most employee based on job title? 
+
+#SELECT title, last_name, first_name 
+#FROM employee
+#ORDER BY levels DESC
+#LIMIT 1
+![first problem Question]('./solution_image/question_1.png')
+
+![first problem Solution]('./solution_image/solution_1.png')
+
 2. **Top Countries by Invoice Count** - Lists countries with the most invoices.
 3. **Top Invoice Values** - Retrieves the top three invoice totals.
 4. **City with Best Customers** - Determines the city with the highest total sales.
